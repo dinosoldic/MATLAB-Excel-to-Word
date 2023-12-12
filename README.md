@@ -1,5 +1,5 @@
 # MATLAB-Excel-to-Word
-MATLAB script that replaces placeholders in .docx with data stored in .xlsx.
+MATLAB script that replaces placeholders in .docx with data stored in .xlsx. Once done, asves as word document with custom name and includes option to save as .pdf.
 
 Points to take into consideration:
 
