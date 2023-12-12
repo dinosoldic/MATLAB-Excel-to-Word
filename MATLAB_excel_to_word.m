@@ -126,14 +126,14 @@ screenWidth = screenSize(3);
 screenHeight = screenSize(4);
 
 % Create a figure for the completion message
-fig = figure('Name', 'Process Completed', 'NumberTitle', 'off', 'MenuBar', 'none');
+fig = figure('Completion', 'Process Completed', 'NumberTitle', 'off', 'MenuBar', 'none');
 textHandle = uicontrol('Style', 'text', 'String', [completionMsg, catASCII], ...
     'HorizontalAlignment', 'center', 'FontSize', 12, 'FontWeight', 'bold', ...
     'Units', 'pixels');
 
 % Calculate figure position to center on the screen
-figureWidth = 400; % Adjust figure width
-figureHeight = 200; % Adjust figure height
+figureWidth = 400; 
+figureHeight = 200;
 figureX = (screenWidth - figureWidth) / 2;
 figureY = (screenHeight - figureHeight) / 2;
 
